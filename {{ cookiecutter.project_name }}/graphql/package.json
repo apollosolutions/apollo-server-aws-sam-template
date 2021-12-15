@@ -1,0 +1,25 @@
+{
+  "name": "simple-users-subgraph",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/federation": "^0.28.0",
+    "apollo-server-lambda": "^3.3.0",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.1"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "aws-sdk": "^2.976.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.2.1"
+  }
+}
